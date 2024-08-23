@@ -29,3 +29,27 @@ let markHigherBMI2 = markBMI2 > johnBMI2;
 //hiển thị kết quả
 console.log(markBMI, johnBMI, `-------Mark có BMI cao hơn trong Data 1 không? ${markHigherBMI}`);
 console.log(markBMI2, johnBMI2, `------Mark có BMI cao hơn trong Data 1 không? ${markHigherBMI2}`);
+
+// Use the BMI example from Challenge #1, and the code you already wrote, and improve it.
+// Your tasks:
+// 1. Print a nice output to the console, saying who has the higher BMI. The message is either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
+// 2. Use a template literal to include the BMI values in the outputs. Example: "Mark's BMI (28.3) is higher than John's (23.9)!"
+// Hint: Use an if/else statement 
+
+// so sánh kết quả bằng data 1
+if(markBMI > johnBMI){
+    console.log(`Mark's BMI (${markBMI.toFixed(2)}) is higher than John's (${johnBMI.toFixed(2)})!`);
+} else if(markBMI1 < johnBMI1){
+    console.log(`John's BMI (${johnBMI.toFixed(2)}) is higher than Mark's (${markBMI.toFixed(2)})!`);
+} else {
+    console.log(`Mark's BMI (${markBMI.toFixed(2)}) is equal to John's (${johnBMI.toFixed(2)})!`);
+}
+
+// so sánh kết quả bằng data 2
+if(markBMI2 > johnBMI2){
+    console.log(`Mark's BMI (${markBMI2.toFixed(2)}) is higher than John's (${johnBMI2.toFixed(2)})!`);
+} else if(markBMI2 < johnBMI2){
+    console.log(`John's BMI (${johnBMI2.toFixed(2)}) is higher than Mark's (${markBMI2.toFixed(2)})!`);
+} else { 
+    console.log(`Mark's BMI (${markBMI2.toFixed(2)}) is equal to John's (${johnBMI2.toFixed(2)})!`);
+}
