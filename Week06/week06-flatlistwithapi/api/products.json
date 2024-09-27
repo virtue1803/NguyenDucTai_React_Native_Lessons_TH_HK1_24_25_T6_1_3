@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Cáp chuyển từ USB sang PS2",
+      "image": "https://via.placeholder.com/150",
+      "price": "69.900 đ",
+      "discount": "-39%",
+      "reviews": 15,
+      "rating": 4.5
+    },
+    {
+      "id": "2",
+      "name": "Cáp sạc nhanh USB Type-C",
+      "image": "https://via.placeholder.com/150",
+      "price": "120.000 đ",
+      "discount": "-25%",
+      "reviews": 25,
+      "rating": 4.7
+    },
+    {
+      "id": "3",
+      "name": "Hub USB 4 cổng",
+      "image": "https://via.placeholder.com/150",
+      "price": "89.000 đ",
+      "discount": "-20%",
+      "reviews": 10,
+      "rating": 4.2
+    },
+    {
+      "id": "4",
+      "name": "Đầu chuyển USB sang HDMI",
+      "image": "https://via.placeholder.com/150",
+      "price": "150.000 đ",
+      "discount": "-15%",
+      "reviews": 30,
+      "rating": 4.8
+    },
+    {
+      "id": "5",
+      "name": "Cáp sạc iPhone chính hãng",
+      "image": "https://via.placeholder.com/150",
+      "price": "199.000 đ",
+      "discount": "-10%",
+      "reviews": 50,
+      "rating": 5.0
+    },
+    {
+      "id": "6",
+      "name": "Cáp chuyển từ USB sang VGA",
+      "image": "https://via.placeholder.com/150",
+      "price": "79.000 đ",
+      "discount": "-35%",
+      "reviews": 18,
+      "rating": 4.3
+    },
+    {
+      "id": "7",
+      "name": "Cáp OTG USB Type-C",
+      "image": "https://via.placeholder.com/150",
+      "price": "65.000 đ",
+      "discount": "-30%",
+      "reviews": 12,
+      "rating": 4.0
+    },
+    {
+      "id": "8",
+      "name": "Cáp âm thanh USB to Jack 3.5mm",
+      "image": "https://via.placeholder.com/150",
+      "price": "110.000 đ",
+      "discount": "-28%",
+      "reviews": 22,
+      "rating": 4.6
+    },
+    {
+      "id": "9",
+      "name": "Cáp chuyển từ USB sang LAN",
+      "image": "https://via.placeholder.com/150",
+      "price": "99.000 đ",
+      "discount": "-40%",
+      "reviews": 8,
+      "rating": 4.1
+    },
+    {
+      "id": "10",
+      "name": "Hub chuyển từ USB sang Type-C",
+      "image": "https://via.placeholder.com/150",
+      "price": "220.000 đ",
+      "discount": "-18%",
+      "reviews": 28,
+      "rating": 4.7
+    },
+    {
+      "id": "11",
+      "name": "Cáp USB Type-C sang Lightning",
+      "image": "https://via.placeholder.com/150",
+      "price": "150.000 đ",
+      "discount": "-32%",
+      "reviews": 19,
+      "rating": 4.4
+    },
+    {
+      "id": "12",
+      "name": "Đầu đọc thẻ nhớ USB 3.0",
+      "image": "https://via.placeholder.com/150",
+      "price": "85.000 đ",
+      "discount": "-25%",
+      "reviews": 5,
+      "rating": 3.9
+    },
+    {
+      "id": "13",
+      "name": "Cáp sạc nhanh 2 trong 1 USB",
+      "image": "https://via.placeholder.com/150",
+      "price": "140.000 đ",
+      "discount": "-29%",
+      "reviews": 16,
+      "rating": 4.3
+    },
+    {
+      "id": "14",
+      "name": "Đầu chuyển USB sang Micro USB",
+      "image": "https://via.placeholder.com/150",
+      "price": "50.000 đ",
+      "discount": "-35%",
+      "reviews": 20,
+      "rating": 4.1
+    },
+    {
+      "id": "15",
+      "name": "Đầu nối dài USB 2.0",
+      "image": "https://via.placeholder.com/150",
+      "price": "45.000 đ",
+      "discount": "-22%",
+      "reviews": 7,
+      "rating": 3.7
+    },
+    {
+      "id": "16",
+      "name": "Cáp nối dài USB 3.0",
+      "image": "https://via.placeholder.com/150",
+      "price": "100.000 đ",
+      "discount": "-30%",
+      "reviews": 11,
+      "rating": 4.2
+    },
+    {
+      "id": "17",
+      "name": "Cáp chuyển từ USB Type-C sang Micro USB",
+      "image": "https://via.placeholder.com/150",
+      "price": "60.000 đ",
+      "discount": "-27%",
+      "reviews": 9,
+      "rating": 4.0
+    },
+    {
+      "id": "18",
+      "name": "Đầu chuyển USB sang Lightning",
+      "image": "https://via.placeholder.com/150",
+      "price": "95.000 đ",
+      "discount": "-33%",
+      "reviews": 6,
+      "rating": 4.5
+    },
+    {
+      "id": "19",
+      "name": "Hub USB 3.0 4 cổng",
+      "image": "https://via.placeholder.com/150",
+      "price": "160.000 đ",
+      "discount": "-15%",
+      "reviews": 13,
+      "rating": 4.6
+    },
+    {
+      "id": "20",
+      "name": "Bộ chuyển USB sang SD Card",
+      "image": "https://via.placeholder.com/150",
+      "price": "55.000 đ",
+      "discount": "-42%",
+      "reviews": 21,
+      "rating": 4.1
+    }
+  ]
+}
