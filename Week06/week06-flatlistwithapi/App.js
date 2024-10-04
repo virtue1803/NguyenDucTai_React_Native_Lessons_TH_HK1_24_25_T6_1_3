@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, FlatList, Image, StyleSheet, TouchableOpacity, TextInput } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-
+import productsData from './assets/products.json'; // Đường dẫn đến tệp JSON
 
 const App = () => {
   const [products, setProducts] = useState([]); // State để lưu sản phẩm
@@ -9,16 +9,64 @@ const App = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch('D:\Hoc\VSC\Mobile\NguyenDucTai_React_Native_Lessons_TH_HK1_24_25_T6_1_3\Week06\week06-flatlistwithapi\api\products.json'); // Đường dẫn tới file JSON
-        const json = await response.json();
-        setProducts(json);
+        // Sử dụng tệp JSON nội bộ
+        setProducts(productsData);
       } catch (error) {
         console.error(error); // Xử lý lỗi nếu có
       }
     };
 
+    
+
     fetchProducts();
   }, []); // Chạy 1 lần khi component được mount
+  // useEffect(() => {
+  //   const fetchProducts = () => {
+  //     // Tạo một sản phẩm mẫu
+  //     const sampleProducts = [
+  //       {
+  //         id: '1',
+  //         name: 'Dây cáp USB',
+  //         image: 'https://via.placeholder.com/100', // Hình ảnh mẫu
+  //         rating: 4.5,
+  //         reviews: 10,
+  //         price: '$10',
+  //         discount: '$8',
+  //       },
+  //       {
+  //         id: '2',
+  //         name: 'Tai nghe Bluetooth',
+  //         image: 'https://via.placeholder.com/100', // Hình ảnh mẫu
+  //         rating: 4.0,
+  //         reviews: 15,
+  //         price: '$20',
+  //         discount: '$15',
+  //       },
+  //       {
+  //         id: '3',
+  //         name: 'Sạc nhanh',
+  //         image: 'https://via.placeholder.com/100', // Hình ảnh mẫu
+  //         rating: 5.0,
+  //         reviews: 20,
+  //         price: '$15',
+  //         discount: '$12',
+  //       },
+  //       {
+  //         id: '4',
+  //         name: 'Bộ phát WiFi',
+  //         image: 'https://via.placeholder.com/100', // Hình ảnh mẫu
+  //         rating: 3.5,
+  //         reviews: 5,
+  //         price: '$25',
+  //         discount: '$20',
+  //       },
+  //     ];
+
+  //     setProducts(sampleProducts); // Cập nhật state với sản phẩm mẫu
+  //   };
+
+  //   fetchProducts();
+  // }, []); // Chạy 1 lần khi component được mount
 
   const ProductItem = ({ item }) => (
     <View style={styles.productContainer}>
@@ -67,7 +115,7 @@ const App = () => {
       <FlatList
         data={products}
         numColumns={2} // Hiển thị 2 sản phẩm trên mỗi hàng
-        keyExtractor={(item) => item.id}
+        keyExtractor={(item) => item.id.toString()} // Đảm bảo id là chuỗi
         renderItem={({ item }) => <ProductItem item={item} />}
         contentContainerStyle={styles.productList}
       />
@@ -87,6 +135,9 @@ const App = () => {
     </View>
   );
 };
+
+
+
 
 const styles = StyleSheet.create({
   container: {
