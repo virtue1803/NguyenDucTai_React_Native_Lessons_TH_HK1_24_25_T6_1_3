@@ -6,7 +6,6 @@ import Icon from 'react-native-vector-icons/Ionicons';
 const App = () => {
   const [products, setProducts] = useState([]); // State để lưu sản phẩm
 
-  // Sử dụng useEffect để tải dữ liệu từ products.json
   useEffect(() => {
     const fetchProducts = async () => {
       try {
