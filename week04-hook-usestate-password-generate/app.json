@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "hook-usestate-password-generate",
+    "slug": "snack-050c1ac8-4d1d-4b75-a6c6-1ca754ab8fe6",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "useState trong tự động tạo mật khẩu\n"
+  }
+}

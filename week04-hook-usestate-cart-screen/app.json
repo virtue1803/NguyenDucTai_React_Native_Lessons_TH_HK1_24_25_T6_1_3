@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "hook-usestate-cart-screen",
+    "slug": "snack-f37260ae-3cc6-4b01-9103-e2c63bc4b1e8",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "sử dụng useState trong việc đặt hàng sản phẩm"
+  }
+}
